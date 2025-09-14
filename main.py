@@ -5,7 +5,7 @@ url1 = "http://numbersapi.com/random/date"
 url2 = "http://numbersapi.com/56/math"
 url3 = "http://numbersapi.com/random/year"
 url4 = "http://numbersapi.com/random/trivia"
-
+url = "https://uselessfacts.jsph.pl/random.json?language=en"
 
 def fetch_fact(url):
     response = requests.get(url)
